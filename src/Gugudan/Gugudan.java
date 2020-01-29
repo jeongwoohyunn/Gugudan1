@@ -24,7 +24,7 @@ public class Gugudan {
 			input = scanner.nextInt();
 			if (input >= 2 && input <= 9)
 				break;
-			System.out.println("2이상, 9이하의 값만 입력할 수 있습니다. 다시 입력해주세요.");
+			System.out.println("2이상, 9이하의 값만 입력할 수 있습니다 . 다시 입력해주세요.");
 		}
 		for (int i = 1; i <= 9; i++) {
 			int result = input * i;
